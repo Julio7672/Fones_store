@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(184, 184, 184);
+}
+* {
+    margin: 0%;
+}
+#fones-photos {
+    width: 100%;
+    flex-wrap: wrap  !important;
+    margin-top: 7%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   justify-content: space-around;
+   align-content: space-between;
+}
+ header img{
+    width: 17%;
+}
+#fones-photos img {
+    width: 20%;
+    border: solid 1px red;
+
+}
+.selected {
+    width: 20.5% !important;
+    border: solid 3px red !important;
+    
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(121, 8, 8)
+}
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+#redes {
+    display: flex;
+    margin-top: 4%;  
+}
+.margin {
+    margin-top: -4px;
+}
+h1 {
+    font-size: xx-large;
+}
+#info {
+   font-size: x-large;
+   margin-top: 2%;
+   float: left;
+   width: 100%;
+}
+#info p {
+    width: 14%;
+    display: inline-block;
+    margin-left: 9.5%;
+    
+}
+.catalogo {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-principal{
+    margin-top: -0.9%;
+
+}
+button.slick-prev{
+   visibility: hidden;
+
+}
+button.slick-next{
+    visibility: hidden;
+}
+.slick-list{
+    width: 100%!important;
+    
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #ffff;
+    width: 11px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    
+
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 3px;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 46%;
+    position: absolute;
+    top: 89%;
+    
+}
+li.slick-active button{
+    background-color:  rgb(121, 8, 8)
+    
+}
