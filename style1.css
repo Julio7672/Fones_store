@@ -6,12 +6,12 @@ h1 {
 }
 
 #forms-main {
-    margin-left: 20%;
+    margin-left: 6%;
     margin-top: 3%;
     background-color: white;
     display: flex;
     justify-self: center;
-    width: 60%;
+    width: 88%;
     flex-direction: column;
     border: solid 2px black;
 }
@@ -71,4 +71,16 @@ button.slick-prev{
      background-color:  rgb(121, 8, 8)
      
  }
+
+
+@media screen and (max-width: 750px)  {
+    .slick-dots{
+        margin-left: 32%;
+    }
+    #forms-main {
+        margin-top: 20%;
+    }
+} 
+    
+
  
